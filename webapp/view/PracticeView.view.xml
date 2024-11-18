@@ -1,0 +1,15 @@
+<mvc:View controllerName="practicefiori.controller.PracticeView"
+    xmlns:mvc="sap.ui.core.mvc"
+    xmlns="sap.m"
+    xmlns:f="sap.ui.layout.form">
+    <Page id="page" title="{i18n>title}">
+    <content>
+    <VBox id="_IDGenVBox"  >
+    <f:SimpleForm id="_IDGenSimpleForm">
+    <Label id="_IDGenLabel" text="Name"/>
+<Input id="_IDGenInput" placeholder="Please enter Input" showValueHelp="true" width="400px" valueHelpRequest="onVhReq" value="{oModel>/name}"/>
+    </f:SimpleForm>
+    </VBox>
+    </content>
+    </Page>
+</mvc:View>

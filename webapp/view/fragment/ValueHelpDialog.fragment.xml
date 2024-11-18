@@ -1,0 +1,7 @@
+<core:FragmentDefinition xmlns="sap.m" xmlns:core="sap.ui.core">
+<SelectDialog id="SelectDialog" class="sapUiSizeCompact" noDataText="No Data Found" search="handleSearch" 
+confirm="handleConfirm" cancel="handleCancel" items="{path:'oModel>/'}">
+<StandardListItem id="_IDGenStandardListItem" type="Active" title="{oModel>name}" description="{oModel>value}">
+</StandardListItem>
+</SelectDialog>
+</core:FragmentDefinition>
